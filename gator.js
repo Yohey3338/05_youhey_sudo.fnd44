@@ -45,11 +45,11 @@ btn02.addEventListener("click",function (){
 
 const image = document.getElementById("pandaImg");
 image.addEventListener("mouseover", function(){
-  this.src="img/grPanda.jpg";
+  this.src="grPanda.jpg";
 }
 );
 
 image.addEventListener("mouseout", function(){
-  this.src="img/stPanda.jpg";
+  this.src="stPanda.jpg";
 }
 );
